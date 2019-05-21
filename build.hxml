@@ -1,0 +1,8 @@
+-cp src
+
+-D php7
+-D php-front=plugin.php
+-D php-prefix=plugin
+
+-php haxe-wordpress-plugin-demo
+Main
