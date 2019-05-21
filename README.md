@@ -25,7 +25,7 @@ When you want to add more than one Haxe based plugin to your Wordpress installat
 
 For Haxe 3 use `--php-prefix=plugin`. 
 
-> Please note: when using `--php-prefix=plugin` alongside `-resource` in Haxe 3 that PHP does not correctly detect your `res` folder, you need to manually move your `res` folder alongside `plugin` subfolder. Haxe 4 does not have that issue.
+> Please note: when using `--php-prefix=plugin` alongside `-resource` in Haxe 3, PHP does not correctly detect your `res` folder, you need to manually move your `res` folder alongside `plugin` subfolder. Haxe 4 does not have that issue.
 
 ### Plugin works fine locally, but breaks live site, Wordpress shows a white page
 
